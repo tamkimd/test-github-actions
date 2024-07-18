@@ -3,6 +3,12 @@ description: 'Install dependencies, lint, and run tests'
 runs:
   using: composite
   steps:
+    - name: Setup Python 
+        uses: actions/setup-python@v4
+        with:
+          python-version: |
+          3.9
+          3.12
     - name: Install dependencies
       shell: bash
       run: |
