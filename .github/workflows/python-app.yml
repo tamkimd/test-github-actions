@@ -15,5 +15,5 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Run composite steps
-        uses: ./.github/actions/python-steps
+        uses: ./.github/actions/
 
